@@ -1,0 +1,43 @@
+[workspace]
+name = "template-notebooks"
+description = "A template for Jupyter notebooks projects using Pixi"
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = "*"
+
+[feature.formatters.dependencies]
+ruff = "*"
+pre-commit = "*"
+
+[feature.notebooks.dependencies]
+ipython = "*"
+jupyterlab = "*"
+jupytext = "*"
+
+[feature.sci.dependencies]
+pandas = "*"
+numpy = "*"
+scipy = "*"
+
+[feature.viz.dependencies]
+matplotlib-base = "*"
+seaborn = "*"
+
+[target.unix.activation.env]
+PROJECT_ROOT = "$PIXI_PROJECT_ROOT"
+NOTEBOOKS_PATH = "$PIXI_PROJECT_ROOT/notebooks"
+
+[target.win.activation.env]
+PROJECT_ROOT = "%PIXI_PROJECT_ROOT%"
+NOTEBOOKS_PATH = "%PIXI_PROJECT_ROOT%\\notebooks"
+
+[tasks]
+precommit = "pre-commit run --all-files"
+notebooks-smoke = "python -c 'from pathlib import Path; n=sorted(Path(\"notebooks\").rglob(\"*.ipynb\")); print(len(n), [str(p.relative_to(Path(\"notebooks\"))) for p in n])'"
+notebooks-sync = "python scripts/sync_notebooks.py"
+precommit-sync = "python scripts/sync_notebooks.py && pre-commit run --all-files"
+
+[environments]
+default = { features = ["formatters", "viz", "sci", "notebooks"], solve-group = "default" }
