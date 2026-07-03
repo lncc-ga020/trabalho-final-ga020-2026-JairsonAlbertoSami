@@ -1,0 +1,244 @@
+from __future__ import annotations
+
+import numpy as np
+from scipy import sparse
+from scipy.sparse.csgraph import connected_components as _cc
+
+from voids.core.network import Network
+
+
+def adjacency_matrix(net: Network) -> sparse.csr_matrix:
+    """Build the undirected pore adjacency matrix.
+
+    Parameters
+    ----------
+    net :
+        Network whose pore connectivity is to be represented.
+
+    Returns
+    -------
+    scipy.sparse.csr_matrix
+        Sparse symmetric matrix ``A`` with ``A[i, j] = 1`` when pores ``i`` and
+        ``j`` are connected by at least one throat.
+    """
+
+    i = net.throat_conns[:, 0]
+    j = net.throat_conns[:, 1]
+    data = np.ones(net.Nt, dtype=float)
+    A = sparse.coo_matrix((data, (i, j)), shape=(net.Np, net.Np))
+    return (A + A.T).tocsr()
+
+
+def connected_components(net: Network) -> tuple[int, np.ndarray]:
+    """Compute connected components of the pore graph.
+
+    Parameters
+    ----------
+    net :
+        Network whose pore graph is analyzed.
+
+    Returns
+    -------
+    int
+        Number of connected components.
+    numpy.ndarray
+        Integer component labels with shape ``(Np,)``.
+    """
+
+    A = adjacency_matrix(net)
+    n, labels = _cc(A, directed=False, return_labels=True)
+    return int(n), labels.astype(np.int64)
+
+
+def _axis_boundary_labels(axis: str) -> tuple[str, str]:
+    """Return canonical inlet and outlet label names for one axis.
+
+    Parameters
+    ----------
+    axis :
+        Axis identifier.
+
+    Returns
+    -------
+    tuple[str, str]
+        Pair ``(inlet_label, outlet_label)``.
+
+    Raises
+    ------
+    ValueError
+        If the axis is not one of ``"x"``, ``"y"``, or ``"z"``.
+    """
+
+    amap = {
+        "x": ("inlet_xmin", "outlet_xmax"),
+        "y": ("inlet_ymin", "outlet_ymax"),
+        "z": ("inlet_zmin", "outlet_zmax"),
+    }
+    if axis not in amap:
+        raise ValueError(f"Unsupported axis '{axis}'")
+    return amap[axis]
+
+
+def spanning_component_ids(net: Network, axis: str, labels: np.ndarray | None = None) -> np.ndarray:
+    """Return component identifiers that span a given sample axis.
+
+    Parameters
+    ----------
+    net :
+        Network to analyze.
+    axis :
+        Axis whose inlet and outlet boundaries define the spanning criterion.
+    labels :
+        Optional precomputed connected-component labels.
+
+    Returns
+    -------
+    numpy.ndarray
+        Sorted array of component identifiers touching both the inlet and outlet
+        boundary sets for the requested axis.
+
+    Raises
+    ------
+    KeyError
+        If the required inlet or outlet labels are missing.
+    """
+
+    if labels is None:
+        _, labels = connected_components(net)
+    inlet_name, outlet_name = _axis_boundary_labels(axis)
+    if inlet_name not in net.pore_labels or outlet_name not in net.pore_labels:
+        raise KeyError(f"Missing pore labels '{inlet_name}'/'{outlet_name}'")
+    inlet_mask = net.pore_labels[inlet_name]
+    outlet_mask = net.pore_labels[outlet_name]
+    inlet_ids = np.unique(labels[inlet_mask])
+    outlet_ids = np.unique(labels[outlet_mask])
+    return np.asarray(np.intersect1d(inlet_ids, outlet_ids))
+
+
+def spanning_component_mask(
+    net: Network, axis: str, labels: np.ndarray | None = None
+) -> np.ndarray:
+    """Return a pore mask selecting axis-spanning connected components.
+
+    Parameters
+    ----------
+    net :
+        Network to analyze.
+    axis :
+        Axis whose boundary labels define the spanning criterion.
+    labels :
+        Optional precomputed connected-component labels.
+
+    Returns
+    -------
+    numpy.ndarray
+        Boolean array with shape ``(Np,)`` selecting pores that belong to any
+        spanning component.
+    """
+
+    if labels is None:
+        _, labels = connected_components(net)
+    comp_ids = spanning_component_ids(net, axis=axis, labels=labels)
+    return np.isin(labels, comp_ids)
+
+
+def induced_subnetwork(
+    net: Network, pore_mask: np.ndarray
+) -> tuple[Network, np.ndarray, np.ndarray]:
+    """Return the induced subnetwork associated with a pore subset.
+
+    Parameters
+    ----------
+    net :
+        Network to subset.
+    pore_mask :
+        Boolean mask with shape ``(Np,)`` selecting retained pores.
+
+    Returns
+    -------
+    tuple
+        ``(subnet, pore_indices, throat_mask)`` where ``subnet`` is the induced
+        network, ``pore_indices`` are the retained pore indices in the original
+        network, and ``throat_mask`` selects retained throats in the original network.
+    """
+
+    pore_mask = np.asarray(pore_mask, dtype=bool)
+    if pore_mask.shape != (net.Np,):
+        raise ValueError("pore_mask must have shape (Np,)")
+    pore_indices = np.flatnonzero(pore_mask)
+    local = -np.ones(net.Np, dtype=int)
+    local[pore_indices] = np.arange(pore_indices.size)
+    throat_mask = pore_mask[net.throat_conns[:, 0]] & pore_mask[net.throat_conns[:, 1]]
+    throat_conns = local[net.throat_conns[throat_mask]]
+
+    # Build pore/throat data and label dicts, subsetting only arrays whose first
+    # dimension matches the number of pores/throats in the original network.
+    pore_data: dict[str, np.ndarray] = {}
+    for k, v in net.pore.items():
+        arr = np.asarray(v)
+        if arr.shape and arr.shape[0] == net.Np:
+            pore_data[k] = arr[pore_indices]
+        else:
+            pore_data[k] = v
+
+    throat_data: dict[str, np.ndarray] = {}
+    for k, v in net.throat.items():
+        arr = np.asarray(v)
+        if arr.shape and arr.shape[0] == net.Nt:
+            throat_data[k] = arr[throat_mask]
+        else:
+            throat_data[k] = v
+
+    pore_labels: dict[str, np.ndarray] = {}
+    for k, v in net.pore_labels.items():
+        arr = np.asarray(v)
+        if arr.shape and arr.shape[0] == net.Np:
+            pore_labels[k] = arr[pore_indices]
+        else:
+            pore_labels[k] = v
+
+    throat_labels: dict[str, np.ndarray] = {}
+    for k, v in net.throat_labels.items():
+        arr = np.asarray(v)
+        if arr.shape and arr.shape[0] == net.Nt:
+            throat_labels[k] = arr[throat_mask]
+        else:
+            throat_labels[k] = v
+
+    subnet = Network(
+        throat_conns=throat_conns,
+        pore_coords=net.pore_coords[pore_indices],
+        sample=net.sample,
+        provenance=net.provenance,
+        schema_version=net.schema_version,
+        pore=pore_data,
+        throat=throat_data,
+        pore_labels=pore_labels,
+        throat_labels=throat_labels,
+        extra={**net.extra},
+    )
+    return subnet, pore_indices, throat_mask
+
+
+def spanning_subnetwork(
+    net: Network, axis: str, labels: np.ndarray | None = None
+) -> tuple[Network, np.ndarray, np.ndarray]:
+    """Return the induced subnetwork formed by axis-spanning components.
+
+    Parameters
+    ----------
+    net :
+        Network to subset.
+    axis :
+        Axis whose inlet/outlet labels define the spanning criterion.
+    labels :
+        Optional connected-component labels.
+
+    Returns
+    -------
+    tuple
+        ``(subnet, pore_indices, throat_mask)`` for the axis-spanning subnetwork.
+    """
+
+    pore_mask = spanning_component_mask(net, axis=axis, labels=labels)
+    return induced_subnetwork(net, pore_mask)
