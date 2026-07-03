@@ -9,7 +9,7 @@ platforms = ["linux-64", "osx-arm64", "win-64"]
 ########## Core dependencies #############
 ##########################################
 [dependencies]
-python = ">=3.11,<3.13"
+python = "3.12.*"
 
 [feature.core.dependencies]
 numpy = "*"

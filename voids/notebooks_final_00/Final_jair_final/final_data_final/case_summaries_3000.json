@@ -1,0 +1,1602 @@
+[
+  {
+    "case_id": 0,
+    "target_macro_porosity": 0.3792441362839168,
+    "target_micro_porosity": 0.23840456566966028,
+    "target_total_porosity": 0.5272351683600445,
+    "realized_total_porosity": 0.52725,
+    "realized_macro_porosity": 0.37925,
+    "realized_matrix_microporosity": 0.23842126459927507,
+    "realized_total_microporosity": 0.148,
+    "macro_seed": 2026,
+    "micropore_seed": 2027,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 1,
+    "target_macro_porosity": 0.2575784976713257,
+    "target_micro_porosity": 0.060447192627946934,
+    "target_total_porosity": 0.3024557932337168,
+    "realized_total_porosity": 0.30245,
+    "realized_macro_porosity": 0.257575,
+    "realized_matrix_microporosity": 0.06044381587365727,
+    "realized_total_microporosity": 0.044875,
+    "macro_seed": 2027,
+    "micropore_seed": 2028,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 2,
+    "target_macro_porosity": 0.1343082559725176,
+    "target_micro_porosity": 0.13182239712314772,
+    "target_total_porosity": 0.24842581683993875,
+    "realized_total_porosity": 0.24845,
+    "realized_macro_porosity": 0.134325,
+    "realized_matrix_microporosity": 0.13183354030092126,
+    "realized_total_microporosity": 0.114125,
+    "macro_seed": 2028,
+    "micropore_seed": 2029,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 3,
+    "target_macro_porosity": 0.2973687077398441,
+    "target_micro_porosity": 0.24313867993977265,
+    "target_total_porosity": 0.468205552624355,
+    "realized_total_porosity": 0.4682,
+    "realized_macro_porosity": 0.297375,
+    "realized_matrix_microporosity": 0.24312399928838285,
+    "realized_total_microporosity": 0.170825,
+    "macro_seed": 2029,
+    "micropore_seed": 2030,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 4,
+    "target_macro_porosity": 0.08931378613475967,
+    "target_micro_porosity": 0.024947799903822496,
+    "target_total_porosity": 0.11203340357343938,
+    "realized_total_porosity": 0.11205,
+    "realized_macro_porosity": 0.089325,
+    "realized_matrix_microporosity": 0.024954017624289674,
+    "realized_total_microporosity": 0.022725,
+    "macro_seed": 2030,
+    "micropore_seed": 2031,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 5,
+    "target_macro_porosity": 0.29805252395074355,
+    "target_micro_porosity": 0.06688425143263675,
+    "target_total_porosity": 0.3450017554313268,
+    "realized_total_porosity": 0.345,
+    "realized_macro_porosity": 0.29805,
+    "realized_matrix_microporosity": 0.06688510577676472,
+    "realized_total_microporosity": 0.04695,
+    "macro_seed": 2031,
+    "micropore_seed": 2032,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 6,
+    "target_macro_porosity": 0.07616030845783923,
+    "target_micro_porosity": 0.0715560878393775,
+    "target_total_porosity": 0.1422666625753335,
+    "realized_total_porosity": 0.142275,
+    "realized_macro_porosity": 0.076175,
+    "realized_matrix_microporosity": 0.07155034773901983,
+    "realized_total_microporosity": 0.0661,
+    "macro_seed": 2032,
+    "micropore_seed": 2033,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 7,
+    "target_macro_porosity": 0.4342616231216954,
+    "target_micro_porosity": 0.08741237462915138,
+    "target_total_porosity": 0.48371415806346985,
+    "realized_total_porosity": 0.483725,
+    "realized_macro_porosity": 0.434275,
+    "realized_matrix_microporosity": 0.08740996066993681,
+    "realized_total_microporosity": 0.04945,
+    "macro_seed": 2033,
+    "micropore_seed": 2034,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 8,
+    "target_macro_porosity": 0.4421717496860294,
+    "target_micro_porosity": 0.04157959578707439,
+    "target_total_porosity": 0.46536602285269524,
+    "realized_total_porosity": 0.465375,
+    "realized_macro_porosity": 0.442175,
+    "realized_matrix_microporosity": 0.04159010442343029,
+    "realized_total_microporosity": 0.0232,
+    "macro_seed": 2034,
+    "micropore_seed": 2035,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 9,
+    "target_macro_porosity": 0.25845106010848956,
+    "target_micro_porosity": 0.2249135539628741,
+    "target_total_porosity": 0.4252354676168909,
+    "realized_total_porosity": 0.425225,
+    "realized_macro_porosity": 0.25845,
+    "realized_matrix_microporosity": 0.2249005461533275,
+    "realized_total_microporosity": 0.166775,
+    "macro_seed": 2035,
+    "micropore_seed": 2036,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 10,
+    "target_macro_porosity": 0.30462133793421914,
+    "target_micro_porosity": 0.04888366281900569,
+    "target_total_porosity": 0.33861399398217407,
+    "realized_total_porosity": 0.338625,
+    "realized_macro_porosity": 0.304625,
+    "realized_matrix_microporosity": 0.04889448139493079,
+    "realized_total_microporosity": 0.034,
+    "macro_seed": 2036,
+    "micropore_seed": 2037,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 11,
+    "target_macro_porosity": 0.3559027793077,
+    "target_micro_porosity": 0.13610655078024017,
+    "target_total_porosity": 0.4435686303832681,
+    "realized_total_porosity": 0.443575,
+    "realized_macro_porosity": 0.3559,
+    "realized_matrix_microporosity": 0.13612016767582674,
+    "realized_total_microporosity": 0.087675,
+    "macro_seed": 2037,
+    "micropore_seed": 2038,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 12,
+    "target_macro_porosity": 0.3559821178467277,
+    "target_micro_porosity": 0.08193195690876974,
+    "target_total_porosity": 0.4087477632157867,
+    "realized_total_porosity": 0.40875,
+    "realized_macro_porosity": 0.355975,
+    "realized_matrix_microporosity": 0.0819455766468693,
+    "realized_total_microporosity": 0.052775,
+    "macro_seed": 2038,
+    "micropore_seed": 2039,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 13,
+    "target_macro_porosity": 0.2831782762522649,
+    "target_micro_porosity": 0.21707423182388913,
+    "target_total_porosity": 0.4387818012894805,
+    "realized_total_porosity": 0.438775,
+    "realized_macro_porosity": 0.283175,
+    "realized_matrix_microporosity": 0.21706832211488158,
+    "realized_total_microporosity": 0.1556,
+    "macro_seed": 2039,
+    "micropore_seed": 2040,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 14,
+    "target_macro_porosity": 0.35752212252949706,
+    "target_micro_porosity": 0.161640925754492,
+    "target_total_porosity": 0.4613728414206102,
+    "realized_total_porosity": 0.461375,
+    "realized_macro_porosity": 0.357525,
+    "realized_matrix_microporosity": 0.16164053075995174,
+    "realized_total_microporosity": 0.10385,
+    "macro_seed": 2040,
+    "micropore_seed": 2041,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 15,
+    "target_macro_porosity": 0.21928070016481266,
+    "target_micro_porosity": 0.19046554088079323,
+    "target_total_porosity": 0.3679808238839958,
+    "realized_total_porosity": 0.368,
+    "realized_macro_porosity": 0.2193,
+    "realized_matrix_microporosity": 0.1904700909440246,
+    "realized_total_microporosity": 0.1487,
+    "macro_seed": 2041,
+    "micropore_seed": 2042,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 16,
+    "target_macro_porosity": 0.42044142861073264,
+    "target_micro_porosity": 0.1834161554997187,
+    "target_total_porosity": 0.5267418336618613,
+    "realized_total_porosity": 0.52675,
+    "realized_macro_porosity": 0.42045,
+    "realized_matrix_microporosity": 0.18341816926926063,
+    "realized_total_microporosity": 0.1063,
+    "macro_seed": 2042,
+    "micropore_seed": 2043,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 17,
+    "target_macro_porosity": 0.32277059394895935,
+    "target_micro_porosity": 0.1582662788443697,
+    "target_total_porosity": 0.42995317196864025,
+    "realized_total_porosity": 0.42995,
+    "realized_macro_porosity": 0.322775,
+    "realized_matrix_microporosity": 0.15825611871977555,
+    "realized_total_microporosity": 0.107175,
+    "macro_seed": 2043,
+    "micropore_seed": 2044,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 18,
+    "target_macro_porosity": 0.19738223652987535,
+    "target_micro_porosity": 0.06670787246206109,
+    "target_total_porosity": 0.25092315993122516,
+    "realized_total_porosity": 0.25095,
+    "realized_macro_porosity": 0.1974,
+    "realized_matrix_microporosity": 0.06672065786194867,
+    "realized_total_microporosity": 0.05355,
+    "macro_seed": 2044,
+    "micropore_seed": 2045,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 19,
+    "target_macro_porosity": 0.39356394214112805,
+    "target_micro_porosity": 0.24366977708519794,
+    "target_total_porosity": 0.5413340811760255,
+    "realized_total_porosity": 0.54135,
+    "realized_macro_porosity": 0.393575,
+    "realized_matrix_microporosity": 0.2436822360555716,
+    "realized_total_microporosity": 0.147775,
+    "macro_seed": 2045,
+    "micropore_seed": 2046,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 20,
+    "target_macro_porosity": 0.2460944052431284,
+    "target_micro_porosity": 0.20219827199335594,
+    "target_total_porosity": 0.3985328137490911,
+    "realized_total_porosity": 0.398525,
+    "realized_macro_porosity": 0.2461,
+    "realized_matrix_microporosity": 0.20218198700092851,
+    "realized_total_microporosity": 0.152425,
+    "macro_seed": 2046,
+    "micropore_seed": 2047,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 21,
+    "target_macro_porosity": 0.2036041661646595,
+    "target_micro_porosity": 0.08798170555344309,
+    "target_total_porosity": 0.27367242992114926,
+    "realized_total_porosity": 0.273675,
+    "realized_macro_porosity": 0.2036,
+    "realized_matrix_microporosity": 0.08798970366649925,
+    "realized_total_microporosity": 0.070075,
+    "macro_seed": 2047,
+    "micropore_seed": 2048,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 22,
+    "target_macro_porosity": 0.1799562854547293,
+    "target_micro_porosity": 0.055965161510745126,
+    "target_total_porosity": 0.22585016438512676,
+    "realized_total_porosity": 0.225875,
+    "realized_macro_porosity": 0.179975,
+    "realized_matrix_microporosity": 0.05597390323465748,
+    "realized_total_microporosity": 0.0459,
+    "macro_seed": 2048,
+    "micropore_seed": 2049,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 23,
+    "target_macro_porosity": 0.2160448744569965,
+    "target_micro_porosity": 0.18112678667909227,
+    "target_total_porosity": 0.3580401472472051,
+    "realized_total_porosity": 0.35805,
+    "realized_macro_porosity": 0.21605,
+    "realized_matrix_microporosity": 0.1811340008929141,
+    "realized_total_microporosity": 0.142,
+    "macro_seed": 2049,
+    "micropore_seed": 2050,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 24,
+    "target_macro_porosity": 0.3469095795401521,
+    "target_micro_porosity": 0.09890589334272627,
+    "target_total_porosity": 0.4115040710093101,
+    "realized_total_porosity": 0.411525,
+    "realized_macro_porosity": 0.346925,
+    "realized_matrix_microporosity": 0.0989166634766298,
+    "realized_total_microporosity": 0.0646,
+    "macro_seed": 2050,
+    "micropore_seed": 2051,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 25,
+    "target_macro_porosity": 0.31316354703465027,
+    "target_micro_porosity": 0.09288380047373913,
+    "target_total_porosity": 0.3769595270899745,
+    "realized_total_porosity": 0.376975,
+    "realized_macro_porosity": 0.313175,
+    "realized_matrix_microporosity": 0.09289120227132093,
+    "realized_total_microporosity": 0.0638,
+    "macro_seed": 2051,
+    "micropore_seed": 2052,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 26,
+    "target_macro_porosity": 0.1913281105883099,
+    "target_micro_porosity": 0.13052673253711872,
+    "target_total_porosity": 0.296881410007836,
+    "realized_total_porosity": 0.296875,
+    "realized_macro_porosity": 0.191325,
+    "realized_matrix_microporosity": 0.130522150431261,
+    "realized_total_microporosity": 0.10555,
+    "macro_seed": 2052,
+    "micropore_seed": 2053,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 27,
+    "target_macro_porosity": 0.3733951652973384,
+    "target_micro_porosity": 0.1948537756166627,
+    "target_total_porosity": 0.49549148315880687,
+    "realized_total_porosity": 0.4955,
+    "realized_macro_porosity": 0.3734,
+    "realized_matrix_microporosity": 0.1948611554420683,
+    "realized_total_microporosity": 0.1221,
+    "macro_seed": 2053,
+    "micropore_seed": 2054,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 28,
+    "target_macro_porosity": 0.36456097536390714,
+    "target_micro_porosity": 0.1254988550190162,
+    "target_total_porosity": 0.44430784539013723,
+    "realized_total_porosity": 0.444325,
+    "realized_macro_porosity": 0.364575,
+    "realized_matrix_microporosity": 0.12550655073376088,
+    "realized_total_microporosity": 0.07975,
+    "macro_seed": 2054,
+    "micropore_seed": 2055,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 29,
+    "target_macro_porosity": 0.20797585516164518,
+    "target_micro_porosity": 0.13686802960869562,
+    "target_total_porosity": 0.316378639268183,
+    "realized_total_porosity": 0.316375,
+    "realized_macro_porosity": 0.207975,
+    "realized_matrix_microporosity": 0.13686436665509297,
+    "realized_total_microporosity": 0.1084,
+    "macro_seed": 2055,
+    "micropore_seed": 2056,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 30,
+    "target_macro_porosity": 0.2542464939956234,
+    "target_micro_porosity": 0.12564080593720459,
+    "target_total_porosity": 0.3479435655205092,
+    "realized_total_porosity": 0.34795,
+    "realized_macro_porosity": 0.25425,
+    "realized_matrix_microporosity": 0.12564532349983237,
+    "realized_total_microporosity": 0.0937,
+    "macro_seed": 2056,
+    "micropore_seed": 2057,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 31,
+    "target_macro_porosity": 0.3684638166008098,
+    "target_micro_porosity": 0.06994968749562733,
+    "target_total_porosity": 0.4126395752717643,
+    "realized_total_porosity": 0.41265,
+    "realized_macro_porosity": 0.368475,
+    "realized_matrix_microporosity": 0.06994972487233285,
+    "realized_total_microporosity": 0.044175,
+    "macro_seed": 2057,
+    "micropore_seed": 2058,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 32,
+    "target_macro_porosity": 0.228150998356411,
+    "target_micro_porosity": 0.02991823322725635,
+    "target_total_porosity": 0.2512433568038089,
+    "realized_total_porosity": 0.25125,
+    "realized_macro_porosity": 0.22815,
+    "realized_matrix_microporosity": 0.029928094837079745,
+    "realized_total_microporosity": 0.0231,
+    "macro_seed": 2058,
+    "micropore_seed": 2059,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 33,
+    "target_macro_porosity": 0.34722676420408605,
+    "target_micro_porosity": 0.14561385097339977,
+    "target_total_porosity": 0.4422795888806962,
+    "realized_total_porosity": 0.442275,
+    "realized_macro_porosity": 0.347225,
+    "realized_matrix_microporosity": 0.1456091302516181,
+    "realized_total_microporosity": 0.09505,
+    "macro_seed": 2059,
+    "micropore_seed": 2060,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 34,
+    "target_macro_porosity": 0.2510871187929634,
+    "target_micro_porosity": 0.08149962932871038,
+    "target_total_porosity": 0.3121232410108334,
+    "realized_total_porosity": 0.312125,
+    "realized_macro_porosity": 0.2511,
+    "realized_matrix_microporosity": 0.08148617973027106,
+    "realized_total_microporosity": 0.061025,
+    "macro_seed": 2060,
+    "micropore_seed": 2061,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 35,
+    "target_macro_porosity": 0.24505810320667182,
+    "target_micro_porosity": 0.11726703607329841,
+    "target_total_porosity": 0.33358790185117937,
+    "realized_total_porosity": 0.3336,
+    "realized_macro_porosity": 0.245075,
+    "realized_matrix_microporosity": 0.11726330430175183,
+    "realized_total_microporosity": 0.088525,
+    "macro_seed": 2061,
+    "micropore_seed": 2062,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 36,
+    "target_macro_porosity": 0.22375545794919194,
+    "target_micro_porosity": 0.05916718186329911,
+    "target_total_porosity": 0.2696836599391054,
+    "realized_total_porosity": 0.269675,
+    "realized_macro_porosity": 0.22375,
+    "realized_matrix_microporosity": 0.059162640901771334,
+    "realized_total_microporosity": 0.045925,
+    "macro_seed": 2062,
+    "micropore_seed": 2063,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 37,
+    "target_macro_porosity": 0.1484231782691665,
+    "target_micro_porosity": 0.1158875616069736,
+    "target_total_porosity": 0.24711033966056925,
+    "realized_total_porosity": 0.2471,
+    "realized_macro_porosity": 0.148425,
+    "realized_matrix_microporosity": 0.11587352846196754,
+    "realized_total_microporosity": 0.098675,
+    "macro_seed": 2063,
+    "micropore_seed": 2064,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 38,
+    "target_macro_porosity": 0.39465628730926827,
+    "target_micro_porosity": 0.29065039783396207,
+    "target_total_porosity": 0.5705996782291171,
+    "realized_total_porosity": 0.5706,
+    "realized_macro_porosity": 0.39465,
+    "realized_matrix_microporosity": 0.2906582968530602,
+    "realized_total_microporosity": 0.17595,
+    "macro_seed": 2064,
+    "micropore_seed": 2065,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 39,
+    "target_macro_porosity": 0.08560086002762841,
+    "target_micro_porosity": 0.05800902364719405,
+    "target_total_porosity": 0.13864426136125962,
+    "realized_total_porosity": 0.13865,
+    "realized_macro_porosity": 0.0856,
+    "realized_matrix_microporosity": 0.0580161854768154,
+    "realized_total_microporosity": 0.05305,
+    "macro_seed": 2065,
+    "micropore_seed": 2066,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 40,
+    "target_macro_porosity": 0.23033068393258,
+    "target_micro_porosity": 0.1318918674260649,
+    "target_total_porosity": 0.33184380732925417,
+    "realized_total_porosity": 0.33185,
+    "realized_macro_porosity": 0.230325,
+    "realized_matrix_microporosity": 0.1319063240978335,
+    "realized_total_microporosity": 0.101525,
+    "macro_seed": 2066,
+    "micropore_seed": 2067,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 41,
+    "target_macro_porosity": 0.2878313746373631,
+    "target_micro_porosity": 0.06896914973810327,
+    "target_total_porosity": 0.33694903919877794,
+    "realized_total_porosity": 0.33695,
+    "realized_macro_porosity": 0.287825,
+    "realized_matrix_microporosity": 0.06897883244988942,
+    "realized_total_microporosity": 0.049125,
+    "macro_seed": 2067,
+    "micropore_seed": 2068,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 42,
+    "target_macro_porosity": 0.2490909984711398,
+    "target_micro_porosity": 0.2070226965312466,
+    "target_total_porosity": 0.4045462048172304,
+    "realized_total_porosity": 0.40455,
+    "realized_macro_porosity": 0.2491,
+    "realized_matrix_microporosity": 0.20701824477293915,
+    "realized_total_microporosity": 0.15545,
+    "macro_seed": 2068,
+    "micropore_seed": 2069,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 43,
+    "target_macro_porosity": 0.3935096016512018,
+    "target_micro_porosity": 0.13438032898040544,
+    "target_total_porosity": 0.4750099809047704,
+    "realized_total_porosity": 0.475,
+    "realized_macro_porosity": 0.3935,
+    "realized_matrix_microporosity": 0.13437757625721353,
+    "realized_total_microporosity": 0.0815,
+    "macro_seed": 2069,
+    "micropore_seed": 2070,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 44,
+    "target_macro_porosity": 0.21389182569793477,
+    "target_micro_porosity": 0.18392626256607386,
+    "target_total_porosity": 0.35847776416995336,
+    "realized_total_porosity": 0.358475,
+    "realized_macro_porosity": 0.2139,
+    "realized_matrix_microporosity": 0.18391426027222998,
+    "realized_total_microporosity": 0.144575,
+    "macro_seed": 2070,
+    "micropore_seed": 2071,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 45,
+    "target_macro_porosity": 0.4106360124601746,
+    "target_micro_porosity": 0.21819850868373206,
+    "target_total_porosity": 0.5392343556132622,
+    "realized_total_porosity": 0.53925,
+    "realized_macro_porosity": 0.41065,
+    "realized_matrix_microporosity": 0.21820649868499195,
+    "realized_total_microporosity": 0.1286,
+    "macro_seed": 2071,
+    "micropore_seed": 2072,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 46,
+    "target_macro_porosity": 0.09915502158811176,
+    "target_micro_porosity": 0.07821989631507556,
+    "target_total_porosity": 0.16961902239544613,
+    "realized_total_porosity": 0.169625,
+    "realized_macro_porosity": 0.099175,
+    "realized_matrix_microporosity": 0.0782060888629867,
+    "realized_total_microporosity": 0.07045,
+    "macro_seed": 2072,
+    "micropore_seed": 2073,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 47,
+    "target_macro_porosity": 0.11297349877330527,
+    "target_micro_porosity": 0.09385334933531156,
+    "target_total_porosity": 0.19622390686261343,
+    "realized_total_porosity": 0.196225,
+    "realized_macro_porosity": 0.112975,
+    "realized_matrix_microporosity": 0.09385304811025619,
+    "realized_total_microporosity": 0.08325,
+    "macro_seed": 2073,
+    "micropore_seed": 2074,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 48,
+    "target_macro_porosity": 0.36495411665471716,
+    "target_micro_porosity": 0.24934450847709713,
+    "target_total_porosity": 0.5232993202978506,
+    "realized_total_porosity": 0.5233,
+    "realized_macro_porosity": 0.36495,
+    "realized_matrix_microporosity": 0.24935044484686245,
+    "realized_total_microporosity": 0.15835,
+    "macro_seed": 2074,
+    "micropore_seed": 2075,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 49,
+    "target_macro_porosity": 0.31597562313163785,
+    "target_micro_porosity": 0.07194616864340973,
+    "target_total_porosity": 0.36518855630601227,
+    "realized_total_porosity": 0.3652,
+    "realized_macro_porosity": 0.315975,
+    "realized_matrix_microporosity": 0.07196374401520413,
+    "realized_total_microporosity": 0.049225,
+    "macro_seed": 2075,
+    "micropore_seed": 2076,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 50,
+    "target_macro_porosity": 0.33808166895937614,
+    "target_micro_porosity": 0.23035503914272512,
+    "target_total_porosity": 0.49055789201552635,
+    "realized_total_porosity": 0.49055,
+    "realized_macro_porosity": 0.338075,
+    "realized_matrix_microporosity": 0.23035087056690712,
+    "realized_total_microporosity": 0.152475,
+    "macro_seed": 2076,
+    "micropore_seed": 2077,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 51,
+    "target_macro_porosity": 0.26570212935129556,
+    "target_micro_porosity": 0.04912616788419113,
+    "target_total_porosity": 0.3017753698217879,
+    "realized_total_porosity": 0.301775,
+    "realized_macro_porosity": 0.2657,
+    "realized_matrix_microporosity": 0.04912842162603841,
+    "realized_total_microporosity": 0.036075,
+    "macro_seed": 2077,
+    "micropore_seed": 2078,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 52,
+    "target_macro_porosity": 0.2387789817019466,
+    "target_micro_porosity": 0.23840072361469541,
+    "target_total_porosity": 0.42025462329491786,
+    "realized_total_porosity": 0.42025,
+    "realized_macro_porosity": 0.238775,
+    "realized_matrix_microporosity": 0.23839863378107656,
+    "realized_total_microporosity": 0.181475,
+    "macro_seed": 2078,
+    "micropore_seed": 2079,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 53,
+    "target_macro_porosity": 0.4102750014921073,
+    "target_micro_porosity": 0.11867966777013063,
+    "target_total_porosity": 0.48026336839076483,
+    "realized_total_porosity": 0.480275,
+    "realized_macro_porosity": 0.410275,
+    "realized_matrix_microporosity": 0.11869939378523889,
+    "realized_total_microporosity": 0.07,
+    "macro_seed": 2079,
+    "micropore_seed": 2080,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 54,
+    "target_macro_porosity": 0.2648752294193902,
+    "target_micro_porosity": 0.19980500430634385,
+    "target_total_porosity": 0.411756837370949,
+    "realized_total_porosity": 0.41175,
+    "realized_macro_porosity": 0.264875,
+    "realized_matrix_microporosity": 0.19979595306920592,
+    "realized_total_microporosity": 0.146875,
+    "macro_seed": 2080,
+    "micropore_seed": 2081,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 55,
+    "target_macro_porosity": 0.26111457796390874,
+    "target_micro_porosity": 0.18423146425460865,
+    "target_total_porosity": 0.3972405211820023,
+    "realized_total_porosity": 0.39725,
+    "realized_macro_porosity": 0.261125,
+    "realized_matrix_microporosity": 0.18423278633057014,
+    "realized_total_microporosity": 0.136125,
+    "macro_seed": 2081,
+    "micropore_seed": 2082,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 56,
+    "target_macro_porosity": 0.32779736978599805,
+    "target_micro_porosity": 0.040753219297248656,
+    "target_total_porosity": 0.35519179098729664,
+    "realized_total_porosity": 0.3552,
+    "realized_macro_porosity": 0.3278,
+    "realized_matrix_microporosity": 0.04076167807200238,
+    "realized_total_microporosity": 0.0274,
+    "macro_seed": 2082,
+    "micropore_seed": 2083,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 57,
+    "target_macro_porosity": 0.2202273051085828,
+    "target_micro_porosity": 0.15490089828061707,
+    "target_total_porosity": 0.34101479600196083,
+    "realized_total_porosity": 0.341025,
+    "realized_macro_porosity": 0.220225,
+    "realized_matrix_microporosity": 0.15491648231861754,
+    "realized_total_microporosity": 0.1208,
+    "macro_seed": 2083,
+    "micropore_seed": 2084,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 58,
+    "target_macro_porosity": 0.30543067177540706,
+    "target_micro_porosity": 0.16551159103335175,
+    "target_total_porosity": 0.42038994637282573,
+    "realized_total_porosity": 0.420375,
+    "realized_macro_porosity": 0.305425,
+    "realized_matrix_microporosity": 0.16549688658532197,
+    "realized_total_microporosity": 0.11495,
+    "macro_seed": 2084,
+    "micropore_seed": 2085,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 59,
+    "target_macro_porosity": 0.2877298738433226,
+    "target_micro_porosity": 0.08146544963517548,
+    "target_total_porosity": 0.3457552799323795,
+    "realized_total_porosity": 0.34575,
+    "realized_macro_porosity": 0.287725,
+    "realized_matrix_microporosity": 0.08146432206661752,
+    "realized_total_microporosity": 0.058025,
+    "macro_seed": 2085,
+    "micropore_seed": 2086,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 60,
+    "target_macro_porosity": 0.23171239160912294,
+    "target_micro_porosity": 0.03771556571019698,
+    "target_total_porosity": 0.26068879338771916,
+    "realized_total_porosity": 0.2607,
+    "realized_macro_porosity": 0.231725,
+    "realized_matrix_microporosity": 0.03771436009241483,
+    "realized_total_microporosity": 0.028975,
+    "macro_seed": 2086,
+    "micropore_seed": 2087,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 61,
+    "target_macro_porosity": 0.41631056667869154,
+    "target_micro_porosity": 0.1438531768325006,
+    "target_total_porosity": 0.5002761459455238,
+    "realized_total_porosity": 0.5003,
+    "realized_macro_porosity": 0.416325,
+    "realized_matrix_microporosity": 0.1438728744592453,
+    "realized_total_microporosity": 0.083975,
+    "macro_seed": 2087,
+    "micropore_seed": 2088,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 62,
+    "target_macro_porosity": 0.3476269611749686,
+    "target_micro_porosity": 0.0637400296283094,
+    "target_total_porosity": 0.38920923799838636,
+    "realized_total_porosity": 0.3892,
+    "realized_macro_porosity": 0.347625,
+    "realized_matrix_microporosity": 0.06372868365587277,
+    "realized_total_microporosity": 0.041575,
+    "macro_seed": 2088,
+    "micropore_seed": 2089,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 63,
+    "target_macro_porosity": 0.42179432073600237,
+    "target_micro_porosity": 0.2228739150550933,
+    "target_total_porosity": 0.5506612841806591,
+    "realized_total_porosity": 0.550675,
+    "realized_macro_porosity": 0.4218,
+    "realized_matrix_microporosity": 0.22289000345901072,
+    "realized_total_microporosity": 0.128875,
+    "macro_seed": 2089,
+    "micropore_seed": 2090,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 64,
+    "target_macro_porosity": 0.4064711957025573,
+    "target_micro_porosity": 0.29858655926654326,
+    "target_total_porosity": 0.5836909192033162,
+    "realized_total_porosity": 0.5837,
+    "realized_macro_porosity": 0.406475,
+    "realized_matrix_microporosity": 0.2985973632113222,
+    "realized_total_microporosity": 0.177225,
+    "macro_seed": 2090,
+    "micropore_seed": 2091,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 65,
+    "target_macro_porosity": 0.17813328247625543,
+    "target_micro_porosity": 0.17681645414331013,
+    "target_total_porosity": 0.3234528412472054,
+    "realized_total_porosity": 0.323475,
+    "realized_macro_porosity": 0.17815,
+    "realized_matrix_microporosity": 0.17682667153373485,
+    "realized_total_microporosity": 0.145325,
+    "macro_seed": 2091,
+    "micropore_seed": 2092,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 66,
+    "target_macro_porosity": 0.32601053943203717,
+    "target_micro_porosity": 0.27995642204002297,
+    "target_total_porosity": 0.5146982173053292,
+    "realized_total_porosity": 0.5147,
+    "realized_macro_porosity": 0.326025,
+    "realized_matrix_microporosity": 0.2799436180867243,
+    "realized_total_microporosity": 0.188675,
+    "macro_seed": 2092,
+    "micropore_seed": 2093,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 67,
+    "target_macro_porosity": 0.19432381528072967,
+    "target_micro_porosity": 0.07354723134308903,
+    "target_total_porosity": 0.2535790680258952,
+    "realized_total_porosity": 0.253575,
+    "realized_macro_porosity": 0.194325,
+    "realized_matrix_microporosity": 0.07354081980947652,
+    "realized_total_microporosity": 0.05925,
+    "macro_seed": 2093,
+    "micropore_seed": 2094,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 68,
+    "target_macro_porosity": 0.13218703336647264,
+    "target_micro_porosity": 0.13071354537337623,
+    "target_total_porosity": 0.24562194295612844,
+    "realized_total_porosity": 0.245625,
+    "realized_macro_porosity": 0.1322,
+    "realized_matrix_microporosity": 0.1307040792809403,
+    "realized_total_microporosity": 0.113425,
+    "macro_seed": 2094,
+    "micropore_seed": 2095,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 69,
+    "target_macro_porosity": 0.3392247066617934,
+    "target_micro_porosity": 0.12749478956815533,
+    "target_total_porosity": 0.42347011363778414,
+    "realized_total_porosity": 0.423475,
+    "realized_macro_porosity": 0.339225,
+    "realized_matrix_microporosity": 0.12750179713215543,
+    "realized_total_microporosity": 0.08425,
+    "macro_seed": 2095,
+    "micropore_seed": 2096,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 70,
+    "target_macro_porosity": 0.35080396946947817,
+    "target_micro_porosity": 0.2679417319391086,
+    "target_total_porosity": 0.5247506782578206,
+    "realized_total_porosity": 0.52475,
+    "realized_macro_porosity": 0.3508,
+    "realized_matrix_microporosity": 0.2679451632778805,
+    "realized_total_microporosity": 0.17395,
+    "macro_seed": 2096,
+    "micropore_seed": 2097,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 71,
+    "target_macro_porosity": 0.168152450976484,
+    "target_micro_porosity": 0.10137659160343465,
+    "target_total_porosity": 0.2524823202301591,
+    "realized_total_porosity": 0.252475,
+    "realized_macro_porosity": 0.16815,
+    "realized_matrix_microporosity": 0.10137043938210014,
+    "realized_total_microporosity": 0.084325,
+    "macro_seed": 2097,
+    "micropore_seed": 2098,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 72,
+    "target_macro_porosity": 0.433378768192242,
+    "target_micro_porosity": 0.024793202544619426,
+    "target_total_porosity": 0.4474271231585335,
+    "realized_total_porosity": 0.447425,
+    "realized_macro_porosity": 0.433375,
+    "realized_matrix_microporosity": 0.024795940878005737,
+    "realized_total_microporosity": 0.01405,
+    "macro_seed": 2098,
+    "micropore_seed": 2099,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 73,
+    "target_macro_porosity": 0.19698075719475203,
+    "target_micro_porosity": 0.05174530941078688,
+    "target_total_porosity": 0.23853323637652538,
+    "realized_total_porosity": 0.23855,
+    "realized_macro_porosity": 0.197,
+    "realized_matrix_microporosity": 0.05174346201743462,
+    "realized_total_microporosity": 0.04155,
+    "macro_seed": 2099,
+    "micropore_seed": 2100,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 74,
+    "target_macro_porosity": 0.2524806309969074,
+    "target_micro_porosity": 0.189896856093614,
+    "target_total_porosity": 0.3944322090396768,
+    "realized_total_porosity": 0.394425,
+    "realized_macro_porosity": 0.252475,
+    "realized_matrix_microporosity": 0.18989331460486272,
+    "realized_total_microporosity": 0.14195,
+    "macro_seed": 2100,
+    "micropore_seed": 2101,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 75,
+    "target_macro_porosity": 0.27589805554061647,
+    "target_micro_porosity": 0.12899294799412275,
+    "target_total_porosity": 0.36930210000470887,
+    "realized_total_porosity": 0.3693,
+    "realized_macro_porosity": 0.2759,
+    "realized_matrix_microporosity": 0.12898770887998895,
+    "realized_total_microporosity": 0.0934,
+    "macro_seed": 2101,
+    "micropore_seed": 2102,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 76,
+    "target_macro_porosity": 0.22503540448860088,
+    "target_micro_porosity": 0.02505285197128876,
+    "target_total_porosity": 0.24445047778293763,
+    "realized_total_porosity": 0.244475,
+    "realized_macro_porosity": 0.22505,
+    "realized_matrix_microporosity": 0.025066133298922513,
+    "realized_total_microporosity": 0.019425,
+    "macro_seed": 2102,
+    "micropore_seed": 2103,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 77,
+    "target_macro_porosity": 0.42184626706948875,
+    "target_micro_porosity": 0.25418203464318434,
+    "target_total_porosity": 0.5688025592423183,
+    "realized_total_porosity": 0.5688,
+    "realized_macro_porosity": 0.42185,
+    "realized_matrix_microporosity": 0.2541727925278907,
+    "realized_total_microporosity": 0.14695,
+    "macro_seed": 2103,
+    "micropore_seed": 2104,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 78,
+    "target_macro_porosity": 0.1620981924609996,
+    "target_micro_porosity": 0.13416469520636493,
+    "target_total_porosity": 0.2745150330823318,
+    "realized_total_porosity": 0.274525,
+    "realized_macro_porosity": 0.1621,
+    "realized_matrix_microporosity": 0.13417472252058718,
+    "realized_total_microporosity": 0.112425,
+    "macro_seed": 2104,
+    "micropore_seed": 2105,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 79,
+    "target_macro_porosity": 0.22115355968835582,
+    "target_micro_porosity": 0.15943280359283657,
+    "target_total_porosity": 0.3453272312355421,
+    "realized_total_porosity": 0.345325,
+    "realized_macro_porosity": 0.22115,
+    "realized_matrix_microporosity": 0.1594337805739231,
+    "realized_total_microporosity": 0.124175,
+    "macro_seed": 2105,
+    "micropore_seed": 2106,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 80,
+    "target_macro_porosity": 0.23606598470553547,
+    "target_micro_porosity": 0.1541224405798451,
+    "target_total_porosity": 0.35380535958467907,
+    "realized_total_porosity": 0.353825,
+    "realized_macro_porosity": 0.236075,
+    "realized_matrix_microporosity": 0.1541381680138757,
+    "realized_total_microporosity": 0.11775,
+    "macro_seed": 2106,
+    "micropore_seed": 2107,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 81,
+    "target_macro_porosity": 0.3920495258417738,
+    "target_micro_porosity": 0.03172149561840476,
+    "target_total_porosity": 0.4113346241439911,
+    "realized_total_porosity": 0.411325,
+    "realized_macro_porosity": 0.39205,
+    "realized_matrix_microporosity": 0.03170490994325191,
+    "realized_total_microporosity": 0.019275,
+    "macro_seed": 2107,
+    "micropore_seed": 2108,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 82,
+    "target_macro_porosity": 0.443754736776648,
+    "target_micro_porosity": 0.25335377616016724,
+    "target_total_porosity": 0.5846815746854904,
+    "realized_total_porosity": 0.584675,
+    "realized_macro_porosity": 0.44375,
+    "realized_matrix_microporosity": 0.25334831460674156,
+    "realized_total_microporosity": 0.140925,
+    "macro_seed": 2108,
+    "micropore_seed": 2109,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 83,
+    "target_macro_porosity": 0.2410910259890819,
+    "target_micro_porosity": 0.026917781056684572,
+    "target_total_porosity": 0.2615191715934609,
+    "realized_total_porosity": 0.261525,
+    "realized_macro_porosity": 0.2411,
+    "realized_matrix_microporosity": 0.02691395440769535,
+    "realized_total_microporosity": 0.020425,
+    "macro_seed": 2109,
+    "micropore_seed": 2110,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 84,
+    "target_macro_porosity": 0.2646817453477068,
+    "target_micro_porosity": 0.1997507131693749,
+    "target_total_porosity": 0.41156209112096237,
+    "realized_total_porosity": 0.411575,
+    "realized_macro_porosity": 0.2647,
+    "realized_matrix_microporosity": 0.1997484020127839,
+    "realized_total_microporosity": 0.146875,
+    "macro_seed": 2110,
+    "micropore_seed": 2111,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 85,
+    "target_macro_porosity": 0.3628818329428332,
+    "target_micro_porosity": 0.034252096024916245,
+    "target_total_porosity": 0.3847044655800939,
+    "realized_total_porosity": 0.3847,
+    "realized_macro_porosity": 0.362875,
+    "realized_matrix_microporosity": 0.0342554443790465,
+    "realized_total_microporosity": 0.021825,
+    "macro_seed": 2111,
+    "micropore_seed": 2112,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 86,
+    "target_macro_porosity": 0.3759301067252788,
+    "target_micro_porosity": 0.14789894005446408,
+    "target_total_porosity": 0.4682293824605126,
+    "realized_total_porosity": 0.468225,
+    "realized_macro_porosity": 0.375925,
+    "realized_matrix_microporosity": 0.14789889035772943,
+    "realized_total_microporosity": 0.0923,
+    "macro_seed": 2112,
+    "micropore_seed": 2113,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 87,
+    "target_macro_porosity": 0.17212644380730865,
+    "target_micro_porosity": 0.10826205394839024,
+    "target_total_porosity": 0.26175373541028746,
+    "realized_total_porosity": 0.26175,
+    "realized_macro_porosity": 0.172125,
+    "realized_matrix_microporosity": 0.10825909708591273,
+    "realized_total_microporosity": 0.089625,
+    "macro_seed": 2113,
+    "micropore_seed": 2114,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 88,
+    "target_macro_porosity": 0.1872918650015617,
+    "target_micro_porosity": 0.0441893404070216,
+    "target_total_porosity": 0.22320490143056335,
+    "realized_total_porosity": 0.223225,
+    "realized_macro_porosity": 0.1873,
+    "realized_matrix_microporosity": 0.044204503506829085,
+    "realized_total_microporosity": 0.035925,
+    "macro_seed": 2114,
+    "micropore_seed": 2115,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 89,
+    "target_macro_porosity": 0.3282479612240039,
+    "target_micro_porosity": 0.2742928309370872,
+    "target_total_porosity": 0.5125047296276318,
+    "realized_total_porosity": 0.5125,
+    "realized_macro_porosity": 0.32825,
+    "realized_matrix_microporosity": 0.2742835876442129,
+    "realized_total_microporosity": 0.18425,
+    "macro_seed": 2115,
+    "micropore_seed": 2116,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 90,
+    "target_macro_porosity": 0.12528775160760197,
+    "target_micro_porosity": 0.102899052659675,
+    "target_total_porosity": 0.21529481331699407,
+    "realized_total_porosity": 0.2153,
+    "realized_macro_porosity": 0.1253,
+    "realized_matrix_microporosity": 0.1028924202583743,
+    "realized_total_microporosity": 0.09,
+    "macro_seed": 2116,
+    "micropore_seed": 2117,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 91,
+    "target_macro_porosity": 0.2321698766269687,
+    "target_micro_porosity": 0.09171804081378006,
+    "target_total_porosity": 0.30259375122054616,
+    "realized_total_porosity": 0.3026,
+    "realized_macro_porosity": 0.232175,
+    "realized_matrix_microporosity": 0.09172011851658907,
+    "realized_total_microporosity": 0.070425,
+    "macro_seed": 2117,
+    "micropore_seed": 2118,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 92,
+    "target_macro_porosity": 0.4381692316606805,
+    "target_micro_porosity": 0.05864509267091564,
+    "target_total_porosity": 0.47111784913531163,
+    "realized_total_porosity": 0.471125,
+    "realized_macro_porosity": 0.438175,
+    "realized_matrix_microporosity": 0.05864815556445512,
+    "realized_total_microporosity": 0.03295,
+    "macro_seed": 2118,
+    "micropore_seed": 2119,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 93,
+    "target_macro_porosity": 0.4477383157963929,
+    "target_micro_porosity": 0.2684368725374674,
+    "target_total_porosity": 0.5959857151262836,
+    "realized_total_porosity": 0.596,
+    "realized_macro_porosity": 0.44775,
+    "realized_matrix_microporosity": 0.2684472612041648,
+    "realized_total_microporosity": 0.14825,
+    "macro_seed": 2119,
+    "micropore_seed": 2120,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 94,
+    "target_macro_porosity": 0.3502033514532552,
+    "target_micro_porosity": 0.07685094014717948,
+    "target_total_porosity": 0.4001408347985589,
+    "realized_total_porosity": 0.40015,
+    "realized_macro_porosity": 0.3502,
+    "realized_matrix_microporosity": 0.07686980609418283,
+    "realized_total_microporosity": 0.04995,
+    "macro_seed": 2120,
+    "micropore_seed": 2121,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 95,
+    "target_macro_porosity": 0.2549155575166155,
+    "target_micro_porosity": 0.029155750606857003,
+    "target_total_porosity": 0.27663905370271014,
+    "realized_total_porosity": 0.27665,
+    "realized_macro_porosity": 0.254925,
+    "realized_matrix_microporosity": 0.02915813844243868,
+    "realized_total_microporosity": 0.021725,
+    "macro_seed": 2121,
+    "micropore_seed": 2122,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 96,
+    "target_macro_porosity": 0.2559089353361061,
+    "target_micro_porosity": 0.16949542704416462,
+    "target_total_porosity": 0.3820289681010599,
+    "realized_total_porosity": 0.38205,
+    "realized_macro_porosity": 0.255925,
+    "realized_matrix_microporosity": 0.1695057621879515,
+    "realized_total_microporosity": 0.126125,
+    "macro_seed": 2122,
+    "micropore_seed": 2123,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 97,
+    "target_macro_porosity": 0.07766885304725886,
+    "target_micro_porosity": 0.026761612292370503,
+    "target_total_porosity": 0.10235192160718552,
+    "realized_total_porosity": 0.10235,
+    "realized_macro_porosity": 0.077675,
+    "realized_matrix_microporosity": 0.026753042582603748,
+    "realized_total_microporosity": 0.024675,
+    "macro_seed": 2123,
+    "micropore_seed": 2124,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 98,
+    "target_macro_porosity": 0.43847294572507767,
+    "target_micro_porosity": 0.08148459892385979,
+    "target_total_porosity": 0.48422875252756614,
+    "realized_total_porosity": 0.484225,
+    "realized_macro_porosity": 0.438475,
+    "realized_matrix_microporosity": 0.08147455589688794,
+    "realized_total_microporosity": 0.04575,
+    "macro_seed": 2124,
+    "micropore_seed": 2125,
+    "shape": [
+      200,
+      200
+    ]
+  },
+  {
+    "case_id": 99,
+    "target_macro_porosity": 0.43192816303880077,
+    "target_micro_porosity": 0.26354538480088974,
+    "target_total_porosity": 0.5816408739052883,
+    "realized_total_porosity": 0.58165,
+    "realized_macro_porosity": 0.431925,
+    "realized_matrix_microporosity": 0.2635655503234608,
+    "realized_total_microporosity": 0.149725,
+    "macro_seed": 2125,
+    "micropore_seed": 2126,
+    "shape": [
+      200,
+      200
+    ]
+  }
+]
